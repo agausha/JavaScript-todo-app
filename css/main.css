@@ -64,6 +64,11 @@ body {
   background-clip: text;
   padding: 1rem;
   border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .main {
