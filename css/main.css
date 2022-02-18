@@ -22,4 +22,10 @@ body {
           align-items: center;
   min-height: 100vh;
 }
+
+.main {
+  width: 35rem;
+  height: 35rem;
+  background: #241b50;
+}
 /*# sourceMappingURL=main.css.map */
