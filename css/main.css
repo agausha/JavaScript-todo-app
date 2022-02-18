@@ -47,7 +47,7 @@ body {
 #todo-input {
   font-size: 1.25rem;
   color: white;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.3);
@@ -63,7 +63,7 @@ body {
   background: rgba(0, 0, 0, 0.3);
   background-clip: text;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -96,6 +96,8 @@ body {
           justify-content: space-between;
   background: #111127;
   padding: 0.8rem;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .main {
