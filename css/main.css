@@ -81,6 +81,12 @@ body {
   color: #6b7280;
 }
 
+.text {
+  border: none;
+  outline: none;
+  background: none;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
