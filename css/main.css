@@ -87,6 +87,16 @@ body {
   background: none;
 }
 
+#todos .todo .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #111127;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
