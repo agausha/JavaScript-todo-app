@@ -56,6 +56,12 @@ body {
   padding: 1rem;
 }
 
+#todo-submit {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ec4699;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
