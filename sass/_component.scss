@@ -5,6 +5,8 @@
 .title {
     display: flex;
     justify-content: space-between;
+    color: $color-primary-cyan-grey;
+    margin-bottom: 1rem;
 }
 
 #new-todo {
@@ -17,8 +19,27 @@
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    // background: hsla(0, 0, 0, 0.3);
-    // width: 30rem;
-    // margin-right: 0.5rem;
-    // padding: 1rem;
+    background: hsla(0, 0, 0, 0.3);
+    width: 30rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
 }
+
+// #todo-submit {
+//     font-size: 1.25rem;
+//     font-weight: 700;
+//     color: $color-primary-pink;
+//     background: hsla(0, 0%, 0%, 0.3);
+//     background-clip: text;
+//     padding: 1rem;
+//     border-radius: 1rem;
+//     border: none;
+//     outline: none;
+//     cursor: pointer;
+//     transition: all 0.3s;
+ 
+//     &:hover {
+//         color: $color-primary-pink-red;
+//     }
+//  }
+ 

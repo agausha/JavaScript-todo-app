@@ -34,6 +34,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: #6b7280;
+  margin-bottom: 1rem;
 }
 
 #new-todo {
@@ -48,6 +50,10 @@ body {
   border-radius: 0.5rem;
   border: none;
   outline: none;
+  background: rgba(0, 0, 0, 0.3);
+  width: 30rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
 }
 
 .main {
