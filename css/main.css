@@ -45,6 +45,9 @@ body {
 #todo-input {
   font-size: 1.25rem;
   color: white;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
 }
 
 .main {
