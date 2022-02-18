@@ -42,6 +42,10 @@ body {
   display: flex;
 }
 
+#todo-input {
+  font-size: 1.25rem;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
