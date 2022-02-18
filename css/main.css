@@ -27,6 +27,15 @@ body {
   margin: 2rem;
 }
 
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
