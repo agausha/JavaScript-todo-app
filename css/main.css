@@ -23,6 +23,10 @@ body {
   min-height: 100vh;
 }
 
+.header {
+  margin: 2rem;
+}
+
 .main {
   width: 35rem;
   height: 35rem;
