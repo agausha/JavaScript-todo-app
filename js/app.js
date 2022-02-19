@@ -3,10 +3,11 @@ const addForm = document.querySelector('.new-todo');
 
 addForm.addEventListener('submit', e => {
 e.preventDefault();
-// const todo = addForm.new-todo.value.trim();
+const todo = addForm.new-todo.value.trim();
 
+console.log(todo);
 
-})
+});
 
 // SHOW TODAY'S DATE
 const options = {weekday: 'long', month: 'short', day: 'numeric'};
