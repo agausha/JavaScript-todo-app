@@ -18,10 +18,10 @@ e.preventDefault();
 const todo = addForm.add.value.trim();
 
 
-if(todo.length) {
-    generateTemplate(todo);
-    addForm.reset();
-}
+// if(todo.length) {
+//     generateTemplate(todo);
+//     addForm.reset();
+// }
 
 });
 
