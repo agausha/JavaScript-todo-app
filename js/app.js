@@ -1,4 +1,5 @@
 const date = document.querySelector('.date');
+const addForm = document.querySelector('.new-todo');
 
 
 // SHOW TODAY'S DATE
