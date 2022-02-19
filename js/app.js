@@ -5,10 +5,10 @@ const list = document.querySelector('.todo');
 const generateTemplate = todo => {
 
     const html = `
-    <div class="content">
-              <input type="text" class="text" value="${todo}" readonly />
+    <li class="content">
+              <span class="text"> ${todo}<span/>
               <i class="far fa-trash-alt delete"></i>
-            </div>
+            </li>
     `
     list.innerHTML += html;
 }
