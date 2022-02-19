@@ -39,12 +39,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.new-todo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .todo-input {
   font-size: 1rem;
   color: white;
