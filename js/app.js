@@ -6,7 +6,7 @@ const generateTemplate = todo => {
 
     const html = `
     <li class="content">
-              <span class="text"> ${todo}<span/>
+              <span class="text">${todo}</span>
               <i class="far fa-trash-alt delete"></i>
             </li>
     `
@@ -31,3 +31,9 @@ const today = new Date();
 
 date.innerHTML = today.toLocaleDateString('en-US', options);
 
+// DELETE TODOS
+list.addEventListener('click', e => {
+    if(e.target.classList.contains('delete')) {
+        e.target.parentElement.remove();
+    }
+});
