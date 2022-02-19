@@ -73,6 +73,10 @@ body {
   margin-top: 1rem;
 }
 
+.content {
+  list-style: none;
+}
+
 .text {
   border: none;
   outline: none;
