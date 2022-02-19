@@ -57,25 +57,6 @@ body {
   padding: 1rem;
 }
 
-.todo-submit {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #ec4699;
-  background: rgba(0, 0, 0, 0.3);
-  background-clip: text;
-  padding: 1rem;
-  border-radius: 0.8rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.todo-submit:hover {
-  color: #fd7790;
-}
-
 .todo-list {
   margin: 2rem;
   font-size: 1.8rem;
@@ -91,6 +72,7 @@ body {
           justify-content: space-between;
   background: #111127;
   padding: 1rem;
+  width: 30rem;
   border-radius: 0.8rem;
   margin-top: 1rem;
 }

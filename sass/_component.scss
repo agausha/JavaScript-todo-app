@@ -26,24 +26,6 @@
     padding: 1rem;
 }
 
- .todo-submit {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: $color-primary-pink;
-    background: hsla(0, 0%, 0%, 0.3);
-    background-clip: text;
-    padding: 1rem;
-    border-radius:0.8rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s;
- 
-    &:hover {
-        color: $color-primary-pink-red;
-    }
-  }
-
   .todo-list {
       margin: 2rem;
       font-size: 1.8rem;
@@ -55,6 +37,7 @@
     justify-content: space-between;
     background: $color-primary-very-dark-blue-magenta;
     padding: 1rem;
+    width: 30rem;
     border-radius: 0.8rem;
     margin-top: 1rem;
   }
