@@ -1,6 +1,6 @@
 const date = document.querySelector('.date');
 const addForm = document.querySelector('.add');
-const list = document.querySelector('.todos');
+const list = document.querySelector('.todo');
 
 const generateTemplate = todo => {
 
@@ -18,10 +18,10 @@ e.preventDefault();
 const todo = addForm.add.value.trim();
 
 
-// if(todo.length) {
-//     generateTemplate(todo);
-//     addForm.reset();
-// }
+if(todo.length) {
+    generateTemplate(todo);
+    addForm.reset();
+}
 
 });
 
