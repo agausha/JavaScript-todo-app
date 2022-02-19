@@ -38,12 +38,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #6b7280;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 1rem;
 }
 
 .todo-input {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   border-radius: 0.8rem;
   border: none;
@@ -55,7 +55,7 @@ body {
 
 .todo-list {
   margin: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #6b7280;
 }
 
