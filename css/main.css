@@ -110,7 +110,8 @@ body {
 }
 
 .main {
-  width: 35rem;
+  max-width: 30rem;
+  margin: 0 auto;
   height: 35rem;
   background: #241b50;
 }
