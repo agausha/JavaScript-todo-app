@@ -47,13 +47,13 @@ body {
 }
 
 .todo-input {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: white;
   border-radius: 0.8rem;
   border: none;
   outline: none;
   background: rgba(0, 0, 0, 0.3);
-  width: 30rem;
+  width: 25rem;
   padding: 1rem;
 }
 
@@ -72,7 +72,7 @@ body {
           justify-content: space-between;
   background: #111127;
   padding: 1rem;
-  width: 30rem;
+  width: 25rem;
   border-radius: 0.8rem;
   margin-top: 0.3rem;
 }
