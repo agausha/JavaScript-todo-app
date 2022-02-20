@@ -1,14 +1,18 @@
 .header {
     margin: 2rem;
-}
 
-.title {
+&_title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: $color-primary-cyan-grey;
     font-size: 0.8rem;
     margin-bottom: 1rem;
+ }
+
+ &_title-1 {
+     font-size: 1.3rem;
+ }
 }
 
 .todo-input {
@@ -24,7 +28,7 @@
 
   .todo-list {
       margin: 2rem;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       color: $color-primary-cyan-grey
   }
 
