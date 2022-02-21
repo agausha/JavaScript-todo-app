@@ -27,6 +27,9 @@ if(todo.length) {
 //SET LOCAL STORAGE
 //localStorage.setItem('todo', todo);
 localStorage.setItem('todo', JSON.stringify(todo));
+
+    // localStorage.setItem('addForm', addForm);
+    // localStorage.setItem('list', JSON.stringify(list));
 });
 
 // SHOW TODAY'S DATE
