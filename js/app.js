@@ -11,6 +11,7 @@ const generateTemplate = todo => {
             </li>
     `
     list.innerHTML += html;
+    
 }
 
 addForm.addEventListener('submit', e => {
@@ -23,6 +24,9 @@ if(todo.length) {
     addForm.reset();
 }
 
+//SET LOCAL STORAGE
+//localStorage.setItem('todo', todo);
+localStorage.setItem('todo', JSON.stringify(todo));
 });
 
 // SHOW TODAY'S DATE
@@ -36,4 +40,5 @@ list.addEventListener('click', e => {
     if(e.target.classList.contains('delete')) {
         e.target.parentElement.remove();
     }
+
 });
