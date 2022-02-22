@@ -30,10 +30,10 @@ localStorage.setItem('todo', JSON.stringify(todo));
 });
 
 // SHOW TODAY'S DATE
-const now = {weekday: 'long', month: 'short', day: 'numeric',};
-const today = new Date();
+// const now = {weekday: 'long', month: 'short', day: 'numeric',};
+const now = new Date();
 
-date.innerHTML = today.toLocaleDateString('en-US', now);
+date.innerHTML = now.toDateString();
 
 // DELETE TODOS
 list.addEventListener('click', e => {
