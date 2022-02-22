@@ -11,7 +11,6 @@ const generateTemplate = todo => {
             </li>
     `
     list.innerHTML += html;
-    
 }
 
 addForm.addEventListener('submit', e => {
@@ -28,15 +27,13 @@ if(todo.length) {
 //localStorage.setItem('todo', todo);
 localStorage.setItem('todo', JSON.stringify(todo));
 
-    // localStorage.setItem('addForm', addForm);
-    // localStorage.setItem('list', JSON.stringify(list));
 });
 
 // SHOW TODAY'S DATE
-const options = {weekday: 'long', month: 'short', day: 'numeric'};
+const now = {weekday: 'long', month: 'short', day: 'numeric',};
 const today = new Date();
 
-date.innerHTML = today.toLocaleDateString('en-US', options);
+date.innerHTML = today.toLocaleDateString('en-US', now);
 
 // DELETE TODOS
 list.addEventListener('click', e => {
