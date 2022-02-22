@@ -33,7 +33,7 @@ localStorage.setItem('todo', JSON.stringify(todo));
 // const now = {weekday: 'long', month: 'short', day: 'numeric',};
 const now = new Date();
 
-date.innerHTML = (dateFns.format(now, 'ddd, Do MMM.'));
+date.innerHTML = (dateFns.format(now, 'ddd, MMM Do'));
 
 // DELETE TODOS
 list.addEventListener('click', e => {
